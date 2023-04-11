@@ -96,3 +96,53 @@ header img{
     flex-wrap: wrap;
     text-align: center;
 }
+
+.quotes-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.quotes dl{
+    padding:55px;
+}
+
+.quotes dt{
+    font-style: italic;
+}
+
+.quotes dd{
+    text-align: end;
+    font-weight: bold;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:126px;
+    background-color:darkgrey;
+    padding: 25px;
+    border:3px groove black;
+    outline:10px groove white;
+    outline-offset: 3px;
+}
+
+.box button{
+    font-size: 20px;
+    width: 185px;
+    background-color: white;
+    color:royalblue;
+    border-radius: 25px;
+    padding:12px;
+    cursor: pointer;
+}
+
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+}
+
