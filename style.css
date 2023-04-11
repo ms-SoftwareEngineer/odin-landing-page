@@ -1,5 +1,9 @@
 body{
     margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size:25px;
 }
 
 nav .logo{
@@ -55,9 +59,40 @@ header button{
     padding:8px;
     background-color:royalblue;
     cursor: pointer;
+    font-size:25px;
 }
 
 header img{
     box-shadow: 5px 5px 5px 5px rgba(21, 31, 50, 0.8);
     border-radius: 65px;
+}
+
+.info h1{
+    text-align: center;
+    background-color: skyblue;
+    padding: 25px;
+    margin:0;
+}
+
+.info .img-container{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color:cornsilk;
+}
+
+.info img{
+    border-radius: 51px;
+    border:2px solid rgb(228, 15, 207);
+}
+
+.science,.technology,.engineering,.maths{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    flex-wrap: wrap;
+    text-align: center;
 }
