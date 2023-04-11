@@ -146,3 +146,10 @@ header img{
     padding:25px;
 }
 
+footer .element{
+    background: lightblue;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
